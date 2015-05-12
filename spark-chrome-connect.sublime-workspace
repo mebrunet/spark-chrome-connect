@@ -1,0 +1,384 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ports",
+				"portObjects"
+			],
+			[
+				"re",
+				"requests"
+			],
+			[
+				"read",
+				"readVariable"
+			],
+			[
+				"wstrigger",
+				"wstrigger_template"
+			],
+			[
+				"get",
+				"get_argument"
+			],
+			[
+				"web",
+				"websocket"
+			],
+			[
+				"ws",
+				"ws_doc"
+			],
+			[
+				"we",
+				"websocket"
+			],
+			[
+				"to",
+				"tornado"
+			],
+			[
+				"SSE",
+				"SSECleint"
+			],
+			[
+				"E",
+				"EventHandler"
+			],
+			[
+				"ar",
+				"args"
+			],
+			[
+				"rv",
+				"rv_obj"
+			],
+			[
+				"tmp",
+				"tmp_wkend"
+			],
+			[
+				"pr",
+				"profile_type"
+			],
+			[
+				"dens",
+				"density"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"sp",
+				"word-spacing"
+			],
+			[
+				"b",
+				"body	Tag"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"se",
+				"section	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "background.js",
+			"settings":
+			{
+				"buffer_size": 291,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 267,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/marc/spark-chrome-connect"
+	],
+	"file_history":
+	[
+		"/home/marc/browser-serial/manifest.json",
+		"/home/marc/browser-serial/background.js",
+		"/home/marc/browser-serial/demo.html",
+		"/home/marc/browser-serial/demo.js",
+		"/home/marc/browser-serial/build/demo.js",
+		"/home/marc/Documents/spark.py",
+		"/media/EAC83445C8341275/Users/Marc/Documents/GitHub/spark.py",
+		"/home/marc/Downloads/RF_Control_2_Motors_Test.txt.ino",
+		"/home/marc/EquipmindCode/DisplayApp/www/loading.html",
+		"/home/marc/EquipmindCode/DisplayApp/config/app.coffee",
+		"/home/marc/EquipmindCode/angular-phonecat/app/index.html",
+		"/home/marc/EquipmindCode/TornadoServer/venv/bin/activate",
+		"/home/marc/EquipmindCode/TornadoServer/wstrigger.html",
+		"/home/marc/EquipmindCode/TornadoServer/app.py",
+		"/home/marc/myProject/config/structure.coffee",
+		"/home/marc/myProject/app/geolocation/views/index.html",
+		"/home/marc/myProject/app/geolocation/index.js",
+		"/home/marc/myProject/app/geolocation/scripts/IndexController.js",
+		"/home/marc/tornado-test/.gitignore",
+		"/home/marc/Desktop/test_form3.html",
+		"/home/marc/Desktop/test_form2.html",
+		"/home/marc/Desktop/form_test.html",
+		"/home/marc/.bashrc",
+		"/opt/sublime_text/sublime.py",
+		"/home/marc/labsim/simulate.py",
+		"/home/marc/labsim/labbehaviour.py",
+		"/home/marc/.nvm/bash_completion",
+		"/media/MEBrunet/Antidote/Antidote Codes",
+		"/home/marc/labsim/.gitignore",
+		"/media/EAC83445C8341275/Users/Marc/Documents/GitHub/labsim/simulate.py",
+		"/home/marc/Desktop/pure-release-0.5.0/grids.css",
+		"/home/marc/Desktop/pure-release-0.5.0/forms-min.css",
+		"/home/marc/Desktop/pure-release-0.5.0/forms.css",
+		"/home/marc/Desktop/HTML-KickStart-master/composer.json"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"', ",
+			"\\\\",
+			";\n",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "background.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "spark-chrome-connect.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
