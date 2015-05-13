@@ -1,6 +1,8 @@
-window.onload = function(){
-	var serialButton = document.getElementById("serialButton");
-	serialButton.onclick = function(){
+
+$(document).ready(function(){
+  $("#connectForm").hide();
+	$("#serialButton").click(function(){
+	  $("#connectForm").show();
 		chrome.serial.getDevices(function(ports) {
 			console.log("Searching Ports...");
 	  		for (var i = 0; i < ports.length; i++) {
@@ -11,11 +13,11 @@ window.onload = function(){
     		 		console.log("Connection Id: " + cId);
     		 		chrome.serial.send(cId,str2ab("i"),function(sendInfo){
     		 			console.log("Sent " + sendInfo.bytesSent + " bytes.");
-    		 		})
+    		 		});
     		 	});
 	  		}
 		});
-	};
+	});
 
 	var stringReceived = '';
 
@@ -45,7 +47,7 @@ window.onload = function(){
 	var receivedMsg = "";
 	chrome.serial.onReceive.addListener(function(info){
 		receivedMsg += ab2str(info.data).toString();
-		console.log(receivedMsg);		
+		console.log(receivedMsg);
 	});
 	*/
 
@@ -59,9 +61,9 @@ window.onload = function(){
     	});
 	};
 	*/
-};
+});
 
-//Convert String to Array 
+//Convert String to Array
 function str2ab(str) {
   var buf = new ArrayBuffer(str.length);
   var bufView = new Uint8Array(buf);
