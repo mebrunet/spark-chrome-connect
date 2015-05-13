@@ -17,17 +17,39 @@ window.onload = function(){
 		});
 	};
 
+	var stringReceived = '';
+
+	var onReceiveCallback = function(info) {
+	    if (/*info.connectionId == expectedConnectionId && */info.data) {
+	      var str = ab2str(info.data);
+	      if (str.charAt(str.length-1) === '\n') {
+	        stringReceived += str.substring(0, str.length-1);
+	        onLineReceived(stringReceived);
+	        stringReceived = '';
+	      } else {
+	        stringReceived += str;
+	      }
+	    }
+	  };
+
+	var onLineReceived = function(receivedMsg){
+		console.log(receivedMsg);
+		if(receivedMsg.substring(0,15) == "Your core id is"){
+			console.log("Core: " + receivedMsg.substring(16,receivedMsg.length));
+		}
+	};
+
+	chrome.serial.onReceive.addListener(onReceiveCallback);
+
+	/*
 	var receivedMsg = "";
 	chrome.serial.onReceive.addListener(function(info){
 		receivedMsg += ab2str(info.data).toString();
-		console.log(receivedMsg);
-		/*
-		chrome.serial.getControlSignals(info.connectionId,function(signals){
-			console.log("dcd: " + signals.dcd + ", cts: " + signals.cts + ", ri: " + signals.ri + ", dsr: " + signals.dsr);
-		});
-		*/
+		console.log(receivedMsg);		
 	});
+	*/
 
+	/*
 	var disconnectButton = document.getElementById("disconnectButton");
 	disconnectButton.onclick = function(){
 		chrome.serial.getConnections(function(connectionInfos){
@@ -36,6 +58,7 @@ window.onload = function(){
 			});
     	});
 	};
+	*/
 };
 
 //Convert String to Array 

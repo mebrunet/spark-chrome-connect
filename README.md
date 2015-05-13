@@ -11,6 +11,6 @@ Using Chrome's [serial library](https://developer.chrome.com/apps/serial) I am w
 3. Plug your Spark device into your computer via USB and run the App,
 4. Enter WiFi credentials and connect.
 
-If you have comments or ideas pleases open an issue.
+If you have comments or ideas please open an issue.
 
 For more information on the Spark Core see [docs.spark.io](https://docs.spark.io)

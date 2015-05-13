@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Codelab",
+  "name": "Spark Serial Connect",
   "version": "1",
   "icons": {
-    "128": "icon_128.png"
+    "128": "cereal_128.png"
   },
   "permissions": ["serial"],
   "app": {
