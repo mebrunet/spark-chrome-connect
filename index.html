@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script src="jquery-2.1.4.min.js"></script>
-<script src="serialTest.js"></script>
+<script src="serial-connect.js"></script>
 
 <link rel="stylesheet" href="pure-min.css">
 <link rel="stylesheet" href="aligner.css">
@@ -20,8 +20,8 @@
 </div>
 
 <div class="pure-g" id="identify" align="center">
- 	<div class="pure-u-1"><h3 id="instructions">Connect your device via usb and click "Find Device"</h3></div>
- 	<div class="pure-u-1"><button class="pure-button pure-button-primary" id="serialButton">Find Device</button></div>
+ 	<div class="pure-u-1"><h3 id="instructions">Connect your device via usb, put it into listening mode, and click "Find Device"</h3></div>
+ 	<div class="pure-u-1"><button id="findButton" class="pure-button pure-button-primary">Find Device</button></div>
 </div>
 
 <br><br>
@@ -31,22 +31,25 @@
     <fieldset>
         <legend><h2>WiFi Credentials</h2></legend>
 
+        <label for="device-id">Device ID</label>
+        <input id="device-id" type="text" readonly>
+
         <label for="ssid">SSID (name of your WiFi)</label>
         <input id="ssid" type="text" placeholder="SSID">
 
         <label for="password">Password</label>
-        <input id="password" type="password" placeholder="Password">
+        <input id="password" type="text" placeholder="Password">
 
         <label for="security">Security type (if unsure try WPA2)</label>
         <select id="security">
-            <option>WPA2</option>
-            <option>WPA</option>
-            <option>None</option>
+            <option value=3>WPA2</option>
+            <option value=2>WPA</option>
+            <option value=1>WEP</option>
+            <option value=0>None</option>
         </select>
-        <br>
-        <button type="submit" class="pure-button pure-button-primary">Connect</button>
     </fieldset>
 </form>
+<button id="connectButton" class="pure-button pure-button-primary" disabled>Connect</button>
 </div>
 
 </div>

@@ -12,5 +12,9 @@ body {
 }
 
 .Aligner{
-  margin: 10% 10% 20%;
+  margin: 5% 5% 10%;
+}
+
+button {
+	min-width:100px;
 }
