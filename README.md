@@ -17,7 +17,7 @@ This simple app instead uses Chrome's [serial library](https://developer.chrome.
 When completed the connection process will be:
 
 1. Download and install the App from the Chrome Web Store (not yet available), 
-b. *OR* clone/download this repository and follow Google's [instructions](https://developer.chrome.com/apps/first_app#load) to add to Chrome.
+or clone/download this repository and follow Google's [instructions](https://developer.chrome.com/apps/first_app#load) to add to Chrome.
 2. Download and install the [Spark Drivers](https://s3.amazonaws.com/spark-website/Spark.zip) (Windows only, Mac/Linux skip this step),
 3. Plug your Spark device into your computer via USB and run the App,
 4. Enter WiFi credentials and connect.
